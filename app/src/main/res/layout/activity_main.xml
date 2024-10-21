@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/header_txt1"
+        android:layout_width="380dp"
+        android:layout_height="20dp"/>
+
+    <!-- First Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerFirst"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/header_txt2"
+        android:layout_width="380dp"
+        android:layout_height="15dp"/>
+
+    <!-- Second Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerSecond"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/header_txt3"
+        android:layout_width="380dp"
+        android:layout_height="15dp"/>
+
+    <!-- Heading Buttons -->
+    <Button
+        android:id="@+id/buttonChngDns"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Change DNS" />
+
+    <TextView
+        android:id="@+id/header_txt4"
+        android:layout_width="380dp"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/buttonQuery"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Get Config" />
+
+    <TextView
+        android:id="@+id/header_txt5"
+        android:layout_width="380dp"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/buttonIsConf"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Device Configured?" />
+</LinearLayout>
